@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<meta charset="utf-8">
+<title>Contact</title>
+</head>
+<body>
+<header>
+<h1>Contactformulier</h1>
+</header>
+<nav>
+<ul>
+    <li><a href="index.html">Index</a></li>
+    <li><a href="mijncv.html">Mijn CV</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<form id="contactform" action="https://formspree.io/f/mrgvwzde" method="post">
+    <label for="name">Voornaam</label>
+    <input id="name" type="text" name="name" placeholder="Uw voornaam">
+    <label for="lastname">Achternaam</label>
+    <input id="lastname" type="text" name="lastname" placeholder="Uw achternaam">
+    <label for="email">Emailadres</label>
+    <input id="email" type="email" name="_replyto" placeholder="Uw e-mailadres">
+    <label for="bericht">Uw bericht</label>
+    <textarea id="bericht" name="bericht" maxlength ="1500" placeholder="Uw bericht"></textarea>
+    <button type="submit"><strong>Verzend</strong></button>
+    </form>
+<footer>
+    &copy; Copyright 2023 Stijn Schollen
+</footer>
+</body>
+</html>
+
